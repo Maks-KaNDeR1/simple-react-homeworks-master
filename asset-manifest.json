@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/css/main.4b815beb.chunk.css",
-    "main.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/main.9e5399a4.chunk.js",
-    "main.js.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/main.9e5399a4.chunk.js.map",
+    "main.css": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/css/main.50eef308.chunk.css",
+    "main.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/main.87754746.chunk.js",
+    "main.js.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/main.87754746.chunk.js.map",
     "runtime-main.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/runtime-main.6468ee45.js",
     "runtime-main.js.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/runtime-main.6468ee45.js.map",
-    "static/js/2.b63958b7.chunk.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.b63958b7.chunk.js",
-    "static/js/2.b63958b7.chunk.js.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.b63958b7.chunk.js.map",
+    "static/js/2.4d564401.chunk.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.4d564401.chunk.js",
+    "static/js/2.4d564401.chunk.js.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.4d564401.chunk.js.map",
     "index.html": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/index.html",
-    "precache-manifest.fa36f4daf4cda1d674b465dcb5a162c5.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/precache-manifest.fa36f4daf4cda1d674b465dcb5a162c5.js",
+    "precache-manifest.fb37db091b50ee32f77c5e5842517aac.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/precache-manifest.fb37db091b50ee32f77c5e5842517aac.js",
     "service-worker.js": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/service-worker.js",
-    "static/css/main.4b815beb.chunk.css.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/css/main.4b815beb.chunk.css.map",
-    "static/js/2.b63958b7.chunk.js.LICENSE.txt": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.b63958b7.chunk.js.LICENSE.txt"
+    "static/css/main.50eef308.chunk.css.map": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/css/main.50eef308.chunk.css.map",
+    "static/js/2.4d564401.chunk.js.LICENSE.txt": "/https//Maks-KaNDeR1.github.io/simple-react-homeworks-master/static/js/2.4d564401.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6468ee45.js",
-    "static/js/2.b63958b7.chunk.js",
-    "static/css/main.4b815beb.chunk.css",
-    "static/js/main.9e5399a4.chunk.js"
+    "static/js/2.4d564401.chunk.js",
+    "static/css/main.50eef308.chunk.css",
+    "static/js/main.87754746.chunk.js"
   ]
 }
