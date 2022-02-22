@@ -32,6 +32,7 @@ let dialog = {
 }
 
 
+
 let messageElements = dialog.messages.map(m =>
     <Message id={m.id} avatar={m.avatar} name={m.name} message={m.message} time={m.time} />
 )
