@@ -8,7 +8,7 @@ type PropsType = {
 function AlternativeMessage(props: PropsType) {
 
     const [title, setTitle] = useState('')
-    
+
     const hendleOnChange = (event: ChangeEvent<HTMLInputElement>) => {
         setTitle(event.currentTarget.value)
     }
@@ -26,11 +26,19 @@ function AlternativeMessage(props: PropsType) {
 
     return (
         <div>
-            <input value={title} type='text'
-                onChange={hendleOnChange} 
+            <input style={{
+                marginLeft: '30px',
+                backgroundColor: 'rgba(119, 140, 148, 0.452)'
+            }}
+                value={title} type='text'
+                onChange={hendleOnChange}
                 onKeyPress={onKeyPressHandler}
-                />
-            <button onClick={onMessageClick}>Send</button>
+            />
+            <button style={{
+                borderRadius: '0px 55px 55px 0',
+                backgroundColor: 'rgba(79, 140, 148, 0.452)'
+            }}
+                onClick={onMessageClick}>Send</button>
         </div>
     )
 }

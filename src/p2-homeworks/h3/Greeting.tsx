@@ -20,7 +20,10 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <input
+            <input style={{
+                marginLeft: '20px',
+                backgroundColor: 'rgba(119, 140, 148, 0.452)'
+            }}
                 value={name}
                 onChange={setNameCallback}
                 className={inputClass}
@@ -28,7 +31,11 @@ const Greeting: React.FC<GreetingPropsType> = (
                 onBlur={setNameCallback}
             />
             <span>{error}</span>
-            <button onClick={addUser} disabled={!name}>add</button>
+            <button style={{
+                borderRadius: '0px 55px 55px 0',
+                backgroundColor: 'rgba(79, 140, 148, 0.452)'
+            }}
+                onClick={addUser} disabled={!name}>add</button>
             <span>{totalUsers}</span>
         </div>
     )

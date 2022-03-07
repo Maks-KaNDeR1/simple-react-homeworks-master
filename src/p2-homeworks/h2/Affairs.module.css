@@ -3,18 +3,32 @@
 }
 
 .items {
-    padding: 10px
+    padding: 10px;
+    color: rgb(23, 91, 104);
 }
 
 .items span {
     margin: 30px;
     width: 80px;
+    background-color: rgba(79, 140, 148, 0.452);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.difficultyButton {
+    margin-left: 26px;
+    
 }
 
 .difficulty button {
     margin: 3px;
+    margin-left: 15px;
+    background-color: rgba(98, 98, 74, 0.445);
+    /* background-color: rgba(148, 168, 35, 0.918); */
+
 }
 
+
 .items button {
-    margin-left: 60px;
+    margin-left: 40px;
 }
