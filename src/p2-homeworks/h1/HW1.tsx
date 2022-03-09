@@ -5,9 +5,9 @@ import Message from './Message'
 type MessageType = {
     id: number
     avatar: string
-    name: string
+    name: string 
     message: string
-    time: string
+    time: string | any 
 }
 
 
@@ -34,13 +34,28 @@ function HW1() {
 
     const addMessage = (title: string) => {
         let newMessage: MessageType = {
-            id: 4, avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-            name: 'Sonya', message: title, time: '22:50'
+            id: 4, 
+            avatar: dialog[rand].avatar,
+            name:  dialog[rand].name, 
+            message: title, 
+            time: time()
         }
         setDialog([...dialog, newMessage])
     }
 
-    let messageElements = dialog.map(m =>
+
+    const rand = Math.floor(Math.random()*dialog.length)
+    
+    const time = () => {
+        
+        const d = new Date()
+        const m = d.getMinutes()
+        const h = d.getHours()
+
+        return <>{h}:{m}</>
+    }
+
+    const messageElements = dialog.map(m =>
         <Message id={m.id} avatar={m.avatar} name={m.name} message={m.message} time={m.time} />
     )
 

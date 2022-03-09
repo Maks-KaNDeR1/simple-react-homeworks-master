@@ -16,13 +16,13 @@ function App() {
     return (
         <div className={s.App}>
             <div>react homeworks:</div>
-            <HW5 />
             <HW1 />
             <HW2 />
             <HW3 />
             <HW4 />
+            <HW5 />
             <HW6 />
-            <HW7 />
+            {/* <HW7 /> */}
             <HW8 />
             <HW9 />
             <HW10 />
